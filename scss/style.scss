@@ -1,0 +1,156 @@
+body{
+  color: white !important;
+}
+#home{
+  background: url("../img/text.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+  margin-top: -60px
+}
+
+.dark-overlay{
+  background: #00000067;
+  min-height: 600px;
+  margin-top: -100px
+}
+
+.homeContent{
+  padding-top: 170px;
+}
+
+#home h1{
+  font-size: 80px;
+  font-weight: 650;
+}
+
+@media only screen and (max-width: 900px){
+  #home{
+    min-height: 500px;
+  }
+  #home h1{
+    font-size: 40px;
+  }
+}
+
+
+
+#testimonial{
+  background: url("../img/sky.jpg") no-repeat center bottom;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.purple{
+  background: #a8049bbe;
+}
+
+#testimonial img{
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  margin-bottom: 30px;
+  border: 0px;
+  border-radius: 50px;
+}
+
+#testimonial p{
+  background-color: rgba(253, 131, 131, 0.336);
+}
+
+
+#counter{
+  background: url("../img/img1.jpg") no-repeat center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 200px;
+}
+.yellow-overlay{
+  background: rgba(247, 169, 2, 0.781);
+  min-height: 200px;
+}
+
+
+#team{
+  background: url("../img/strip.png") no-repeat center bottom;
+  background-size: cover;
+  min-height: 450px;
+}
+
+.strip-overlay{
+  background: rgba(255, 255, 255, 0.89);
+  min-height: 450px;
+}
+
+#team img{
+  border: 0px;
+  border-radius: 50px;
+}
+
+
+.input {
+  color: #fff;
+  background-color: #e7e7e7;
+  border: 0px;
+  width: 100%;
+  padding: 10px;
+}
+
+.message {
+  color: #fff;
+  background-color: #e7e7e7;
+  border: 0px;
+  width: 100%;
+  min-height: 136px;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.textArea:focus {
+  border: 0px !important;
+  background-color: #4e4e4e;
+}
+
+@media (max-width: 767px) {
+  .textArea {
+    margin-top: 20px !important;
+  }
+  .fs {
+    font-size: 20px;
+  }
+  .center {
+    margin-top: 50px !important;
+  }
+}
+
+
+#footer1 {
+  background: #303030;
+  color: #fff; }
+
+.footW {
+  display: block;
+  text-decoration: none;
+  color: white; }
+
+.hr {
+  border-bottom: 1px solid #36af36;
+  padding-bottom: 50px; }
+
+.link {
+  display: flex; }
+
+.logo {
+  width: 70px; }
+
+#footer2 {
+  padding: 30px;
+  background-color: #303030;
+  color: #fff; }
+
+#footer2 i {
+  color: #fff;
+  padding: 15px;
+  border: 1px solid #fff; }
+
+#footer2 i:hover {
+  color: #36af36; }
